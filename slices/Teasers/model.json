@@ -1,0 +1,150 @@
+{
+  "id": "teasers",
+  "type": "SharedSlice",
+  "name": "Teasers",
+  "description": "Teasers",
+  "variations": [
+    {
+      "id": "primary",
+      "name": "Primary colors",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Teasers",
+      "primary": {
+        "tagline": {
+          "config": {
+            "label": "Tagline",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "This is where it all begins...",
+            "allowTargetBlank": false,
+            "single": "heading2"
+          }
+        }
+      },
+      "items": {
+        "image": {
+          "config": {
+            "label": "Image",
+            "constraint": {
+              "width": 1000,
+              "height": 500
+            },
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "title": {
+          "config": {
+            "label": "Title",
+            "placeholder": "",
+            "allowTargetBlank": false,
+            "single": "heading3"
+          },
+          "type": "StructuredText"
+        },
+        "text": {
+          "config": {
+            "label": "Text",
+            "placeholder": "",
+            "allowTargetBlank": false,
+            "single": "paragraph"
+          },
+          "type": "StructuredText"
+        },
+        "ctaLink": {
+          "config": {
+            "label": "Call to action link",
+            "placeholder": "",
+            "allowTargetBlank": false
+          },
+          "type": "Link"
+        },
+        "ctaLabel": {
+          "config": {
+            "label": "Call to action label",
+            "placeholder": ""
+          },
+          "type": "Text"
+        }
+      }
+    },
+    {
+      "id": "secondary",
+      "name": "Secondary colors",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Teasers",
+      "primary": {
+        "tagline": {
+          "config": {
+            "label": "Tagline",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "This is where it all begins...",
+            "allowTargetBlank": false,
+            "single": "heading2"
+          }
+        }
+      },
+      "items": {
+        "image": {
+          "config": {
+            "label": "Image",
+            "constraint": {
+              "width": 1000,
+              "height": 500
+            },
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "title": {
+          "config": {
+            "label": "Title",
+            "placeholder": "",
+            "allowTargetBlank": false,
+            "single": "heading3"
+          },
+          "type": "StructuredText"
+        },
+        "text": {
+          "config": {
+            "label": "Text",
+            "placeholder": "",
+            "allowTargetBlank": false,
+            "single": "paragraph"
+          },
+          "type": "StructuredText"
+        },
+        "ctaLink": {
+          "config": {
+            "label": "Call to action link",
+            "placeholder": "",
+            "allowTargetBlank": false
+          },
+          "type": "Link"
+        },
+        "ctaLabel": {
+          "config": {
+            "label": "Call to action label",
+            "placeholder": ""
+          },
+          "type": "Text"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "8c9d9e03-8b68-424e-9248-5e7f50424211",
+  "uid": "ut-a-sint",
+  "type": "partials",
+  "data": {
+    "logotype": {
+      "dimensions": {
+        "width": 900,
+        "height": 500
+      },
+      "alt": "Placeholder image",
+      "copyright": null,
+      "url": "https://images.unsplash.com/photo-1571126770897-2d612d1f7b89?w=900&h=500&fit=crop"
+    },
+    "navTitle": "implement real-time platforms",
+    "navigation": [
+      {
+        "link": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        },
+        "label": "visualize seamless mindshare"
+      },
+      {
+        "link": {
+          "link_type": "Web",
+          "url": "http://google.com"
+        },
+        "label": "innovate leading-edge eyeballs"
+      },
+      {
+        "link": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        },
+        "label": "seize one-to-one channels"
+      },
+      {
+        "link": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        },
+        "label": "reinvent customized initiatives"
+      },
+      {
+        "link": {
+          "link_type": "Web",
+          "url": "https://prismic.io"
+        },
+        "label": "exploit extensible experiences"
+      },
+      {
+        "link": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        },
+        "label": "exploit clicks-and-mortar e-commerce"
+      }
+    ],
+    "cta": [
+      {
+        "link": {
+          "link_type": "Web",
+          "url": "http://google.com"
+        },
+        "label": "envisioneer sexy vortals"
+      },
+      {
+        "link": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        },
+        "label": "reinvent granular bandwidth"
+      },
+      {
+        "link": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        },
+        "label": "orchestrate turn-key initiatives"
+      }
+    ],
+    "text": [
+      {
+        "type": "paragraph",
+        "text": "Minim est consequat excepteur ad Lorem aliqua Lorem nisi consequat amet id et commodo sint aliquip. Id ipsum minim ea ut velit et enim. Exercitation voluptate anim pariatur dolore dolore nisi esse veniam consequat aliqua exercitation quis cupidatat tempor sint.",
+        "spans": []
+      }
+    ]
+  }
+}

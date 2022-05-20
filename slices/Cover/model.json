@@ -1,0 +1,340 @@
+{
+  "id": "cover",
+  "type": "SharedSlice",
+  "name": "Cover",
+  "description": "Cover",
+  "variations": [
+    {
+      "id": "full",
+      "name": "Full",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Cover",
+      "primary": {
+        "image": {
+          "config": {
+            "label": "Image",
+            "constraint": {
+              "width": 2000,
+              "height": 1000
+            },
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "tagline": {
+          "config": {
+            "label": "Tagline",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "This is where it all begins...",
+            "allowTargetBlank": false,
+            "single": "heading2"
+          }
+        },
+        "text": {
+          "config": {
+            "label": "Text",
+            "placeholder": "",
+            "allowTargetBlank": false,
+            "single": "paragraph,em,strong,hyperlink"
+          },
+          "type": "StructuredText"
+        },
+        "top": {
+          "config": {
+            "label": "Use as hero (h1 title)",
+            "placeholder_false": "false",
+            "placeholder_true": "true",
+            "default_value": false
+          },
+          "type": "Boolean"
+        }
+      },
+      "items": {
+        "ctaLabel": {
+          "config": {
+            "label": "Call to action label",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "ctaLink": {
+          "config": {
+            "label": "Call to action link",
+            "placeholder": "",
+            "allowTargetBlank": false
+          },
+          "type": "Link"
+        },
+        "ctaStyle": {
+          "config": {
+            "label": "Call to action style",
+            "placeholder": "",
+            "options": [
+              "Filled",
+              "Outline"
+            ],
+            "default_value": "Filled"
+          },
+          "type": "Select"
+        }
+      }
+    },
+    {
+      "id": "contained",
+      "name": "Contained",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Cover",
+      "primary": {
+        "image": {
+          "config": {
+            "label": "Image",
+            "constraint": {
+              "width": 2000,
+              "height": 1000
+            },
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "tagline": {
+          "config": {
+            "label": "Tagline",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "This is where it all begins...",
+            "allowTargetBlank": false,
+            "single": "heading2"
+          }
+        },
+        "text": {
+          "config": {
+            "label": "Text",
+            "placeholder": "",
+            "allowTargetBlank": false,
+            "single": "paragraph,strong,em,hyperlink"
+          },
+          "type": "StructuredText"
+        },
+        "top": {
+          "config": {
+            "label": "Use as hero (h1 title)",
+            "placeholder_false": "false",
+            "placeholder_true": "true",
+            "default_value": false
+          },
+          "type": "Boolean"
+        }
+      },
+      "items": {
+        "ctaLabel": {
+          "config": {
+            "label": "Call to action label",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "ctaLink": {
+          "config": {
+            "label": "Call to action link",
+            "placeholder": "",
+            "allowTargetBlank": false
+          },
+          "type": "Link"
+        },
+        "ctaStyle": {
+          "config": {
+            "label": "Call to action style",
+            "placeholder": "",
+            "options": [
+              "Filled",
+              "Outline"
+            ],
+            "default_value": "Filled"
+          },
+          "type": "Select"
+        }
+      }
+    },
+    {
+      "id": "fullSecondary",
+      "name": "Full / Secondary colors",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Cover",
+      "primary": {
+        "image": {
+          "config": {
+            "label": "Image",
+            "constraint": {
+              "width": 2000,
+              "height": 1000
+            },
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "tagline": {
+          "config": {
+            "label": "Tagline",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "This is where it all begins...",
+            "allowTargetBlank": false,
+            "single": "heading2"
+          }
+        },
+        "text": {
+          "config": {
+            "label": "Text",
+            "placeholder": "",
+            "allowTargetBlank": false,
+            "single": "paragraph,em,strong,hyperlink"
+          },
+          "type": "StructuredText"
+        },
+        "top": {
+          "config": {
+            "label": "Use as hero (h1 title)",
+            "placeholder_false": "false",
+            "placeholder_true": "true",
+            "default_value": false
+          },
+          "type": "Boolean"
+        }
+      },
+      "items": {
+        "ctaLabel": {
+          "config": {
+            "label": "Call to action label",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "ctaLink": {
+          "config": {
+            "label": "Call to action link",
+            "placeholder": "",
+            "allowTargetBlank": false
+          },
+          "type": "Link"
+        },
+        "ctaStyle": {
+          "config": {
+            "label": "Call to action style",
+            "placeholder": "",
+            "options": [
+              "Filled",
+              "Outline"
+            ],
+            "default_value": "Filled"
+          },
+          "type": "Select"
+        }
+      }
+    },
+    {
+      "id": "containedSecondary",
+      "name": "Contained / Secondary colors",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Cover",
+      "primary": {
+        "image": {
+          "config": {
+            "label": "Image",
+            "constraint": {
+              "width": 2000,
+              "height": 1000
+            },
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "tagline": {
+          "config": {
+            "label": "Tagline",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "This is where it all begins...",
+            "allowTargetBlank": false,
+            "single": "heading2"
+          }
+        },
+        "text": {
+          "config": {
+            "label": "Text",
+            "placeholder": "",
+            "allowTargetBlank": false,
+            "single": "paragraph,em,hyperlink,strong"
+          },
+          "type": "StructuredText"
+        },
+        "top": {
+          "config": {
+            "label": "Use as hero (h1 title)",
+            "placeholder_false": "false",
+            "placeholder_true": "true",
+            "default_value": false
+          },
+          "type": "Boolean"
+        }
+      },
+      "items": {
+        "ctaLabel": {
+          "config": {
+            "label": "Call to action label",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "ctaLink": {
+          "config": {
+            "label": "Call to action link",
+            "placeholder": "",
+            "allowTargetBlank": false
+          },
+          "type": "Link"
+        },
+        "ctaStyle": {
+          "config": {
+            "label": "Call to action style",
+            "placeholder": "",
+            "options": [
+              "Filled",
+              "Outline"
+            ],
+            "default_value": "Filled"
+          },
+          "type": "Select"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "id": "partials",
+  "label": "Partials",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Header": {
+      "logotype": {
+        "config": {
+          "label": "Logotype",
+          "constraint": {},
+          "thumbnails": []
+        },
+        "type": "Image"
+      },
+      "navTitle": {
+        "config": {
+          "label": "Navigation title",
+          "placeholder": ""
+        },
+        "type": "Text"
+      },
+      "navigation": {
+        "config": {
+          "label": "Navigation",
+          "placeholder": "",
+          "fields": {
+            "link": {
+              "config": {
+                "label": "Link",
+                "placeholder": "",
+                "allowTargetBlank": false
+              },
+              "type": "Link"
+            },
+            "label": {
+              "config": {
+                "label": "Label",
+                "placeholder": ""
+              },
+              "type": "Text"
+            }
+          }
+        },
+        "type": "Group"
+      },
+      "cta": {
+        "config": {
+          "label": "CTAs",
+          "placeholder": "",
+          "fields": {
+            "link": {
+              "config": {
+                "label": "Link",
+                "placeholder": "",
+                "allowTargetBlank": false
+              },
+              "type": "Link"
+            },
+            "label": {
+              "config": {
+                "label": "Label",
+                "placeholder": ""
+              },
+              "type": "Text"
+            }
+          }
+        },
+        "type": "Group"
+      }
+    },
+    "Footer": {
+      "text": {
+        "config": {
+          "label": "Footer text",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "paragraph,strong,em,hyperlink"
+        },
+        "type": "StructuredText"
+      }
+    }
+  }
+}

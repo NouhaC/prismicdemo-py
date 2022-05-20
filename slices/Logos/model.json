@@ -1,0 +1,192 @@
+{
+  "id": "logos",
+  "type": "SharedSlice",
+  "name": "Logos",
+  "description": "Logos",
+  "variations": [
+    {
+      "id": "stacked",
+      "name": "Stacked",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Logos",
+      "primary": {
+        "tagline": {
+          "config": {
+            "label": "Tagline",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "This is where it all begins...",
+            "allowTargetBlank": false,
+            "single": "heading2"
+          }
+        }
+      },
+      "items": {
+        "logo": {
+          "config": {
+            "label": "Logo",
+            "constraint": {
+              "width": 320,
+              "height": 120
+            },
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "link": {
+          "config": {
+            "label": "Link",
+            "placeholder": "",
+            "allowTargetBlank": false
+          },
+          "type": "Link"
+        }
+      }
+    },
+    {
+      "id": "carousel",
+      "name": "Carousel",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Logos",
+      "primary": {
+        "tagline": {
+          "config": {
+            "label": "Tagline",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "This is where it all begins...",
+            "allowTargetBlank": false,
+            "single": "heading2"
+          }
+        }
+      },
+      "items": {
+        "logo": {
+          "config": {
+            "label": "Logo",
+            "constraint": {
+              "width": 320,
+              "height": 120
+            },
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "link": {
+          "config": {
+            "label": "Link",
+            "placeholder": "",
+            "allowTargetBlank": false
+          },
+          "type": "Link"
+        }
+      }
+    },
+    {
+      "id": "stackedSecondary",
+      "name": "Stacked / Secondary colors",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Logos",
+      "primary": {
+        "tagline": {
+          "config": {
+            "label": "Tagline",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "This is where it all begins...",
+            "allowTargetBlank": false,
+            "single": "heading2"
+          }
+        }
+      },
+      "items": {
+        "logo": {
+          "config": {
+            "label": "Logo",
+            "constraint": {
+              "width": 320,
+              "height": 120
+            },
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "link": {
+          "config": {
+            "label": "Link",
+            "placeholder": "",
+            "allowTargetBlank": false
+          },
+          "type": "Link"
+        }
+      }
+    },
+    {
+      "id": "carouselSecondary",
+      "name": "Carousel / Secondary colors",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Logos",
+      "primary": {
+        "tagline": {
+          "config": {
+            "label": "Tagline",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "This is where it all begins...",
+            "allowTargetBlank": false,
+            "single": "heading2"
+          }
+        }
+      },
+      "items": {
+        "logo": {
+          "config": {
+            "label": "Logo",
+            "constraint": {
+              "width": 320,
+              "height": 120
+            },
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "link": {
+          "config": {
+            "label": "Link",
+            "placeholder": "",
+            "allowTargetBlank": false
+          },
+          "type": "Link"
+        }
+      }
+    }
+  ]
+}

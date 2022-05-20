@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.theme-primary {
+  --background: #fff;
+  --background-alt: #f2f4fa;
+  --color-1: #1d2230;
+  --color-2: #667587;
+  --color-3: #c9d0d8;
+  --cta: #5163ba;
+  --cta-hover: #b6c1fd;
+}
+
+.theme-secondary {
+  --background: #1d2230;
+  --background-alt: #222835;
+  --color-1: #f9fcff;
+  --color-2: #c1c5ca;
+  --color-3: #667587;
+  --cta: #5163ba;
+  --cta-hover: #b6c1fd;
+}

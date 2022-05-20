@@ -1,0 +1,600 @@
+{
+  "id": "image_and_text",
+  "type": "SharedSlice",
+  "name": "ImageAndText",
+  "description": "ImageAndText",
+  "variations": [
+    {
+      "id": "left",
+      "name": "Left aligned",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "ImageAndText",
+      "primary": {
+        "image": {
+          "config": {
+            "label": "Image",
+            "constraint": {
+              "width": 1000,
+              "height": 1000
+            },
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "video": {
+          "config": {
+            "label": "Video illustration",
+            "placeholder": "Replaces image field above",
+            "select": "media"
+          },
+          "type": "Link"
+        },
+        "tagline": {
+          "config": {
+            "label": "Tagline",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "This is where it all begins...",
+            "allowTargetBlank": false,
+            "single": "heading2"
+          }
+        },
+        "text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Text",
+            "placeholder": "",
+            "allowTargetBlank": false,
+            "single": "paragraph,em,hyperlink,strong"
+          }
+        },
+        "ctaLabel": {
+          "config": {
+            "label": "Call to action label",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "ctaLink": {
+          "config": {
+            "label": "Call to action link",
+            "placeholder": "",
+            "allowTargetBlank": false
+          },
+          "type": "Link"
+        },
+        "top": {
+          "config": {
+            "label": "Use as hero (h1 title)",
+            "placeholder_false": "false",
+            "placeholder_true": "true",
+            "default_value": false
+          },
+          "type": "Boolean"
+        }
+      },
+      "items": {}
+    },
+    {
+      "id": "right",
+      "name": "Right aligned",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "ImageAndText",
+      "primary": {
+        "tagline": {
+          "config": {
+            "label": "Tagline",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "This is where it all begins...",
+            "allowTargetBlank": false,
+            "single": "heading2"
+          }
+        },
+        "text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Text",
+            "placeholder": "",
+            "allowTargetBlank": false,
+            "single": "paragraph,em,hyperlink,strong"
+          }
+        },
+        "ctaLabel": {
+          "config": {
+            "label": "Call to action label",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "ctaLink": {
+          "config": {
+            "label": "Call to action link",
+            "placeholder": "",
+            "allowTargetBlank": false
+          },
+          "type": "Link"
+        },
+        "image": {
+          "config": {
+            "label": "Image",
+            "constraint": {
+              "width": 1000,
+              "height": 1000
+            },
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "video": {
+          "config": {
+            "label": "Video illustration",
+            "placeholder": "Replaces image field above",
+            "select": "media"
+          },
+          "type": "Link"
+        },
+        "top": {
+          "config": {
+            "label": "Use as hero (h1 title)",
+            "placeholder_false": "false",
+            "placeholder_true": "true",
+            "default_value": false
+          },
+          "type": "Boolean"
+        }
+      },
+      "items": {}
+    },
+    {
+      "id": "leftFull",
+      "name": "Left aligned / Full width",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "ImageAndText",
+      "primary": {
+        "image": {
+          "config": {
+            "label": "Image",
+            "constraint": {
+              "width": 1000,
+              "height": 1000
+            },
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "tagline": {
+          "config": {
+            "label": "Tagline",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "This is where it all begins...",
+            "allowTargetBlank": false,
+            "single": "heading2"
+          }
+        },
+        "text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Text",
+            "placeholder": "",
+            "allowTargetBlank": false,
+            "single": "paragraph,em,strong,hyperlink"
+          }
+        },
+        "ctaLabel": {
+          "config": {
+            "label": "Call to action label",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "ctaLink": {
+          "config": {
+            "label": "Call to action link",
+            "placeholder": "",
+            "allowTargetBlank": false
+          },
+          "type": "Link"
+        },
+        "top": {
+          "config": {
+            "label": "Use as hero (h1 title)",
+            "placeholder_false": "false",
+            "placeholder_true": "true",
+            "default_value": false
+          },
+          "type": "Boolean"
+        }
+      },
+      "items": {}
+    },
+    {
+      "id": "rightFull",
+      "name": "Right aligned / Full width",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "ImageAndText",
+      "primary": {
+        "tagline": {
+          "config": {
+            "label": "Tagline",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "This is where it all begins...",
+            "allowTargetBlank": false,
+            "single": "heading2"
+          }
+        },
+        "text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Text",
+            "placeholder": "",
+            "allowTargetBlank": false,
+            "single": "paragraph,em,hyperlink,strong"
+          }
+        },
+        "ctaLabel": {
+          "config": {
+            "label": "Call to action label",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "ctaLink": {
+          "config": {
+            "label": "Call to action link",
+            "placeholder": "",
+            "allowTargetBlank": false
+          },
+          "type": "Link"
+        },
+        "image": {
+          "config": {
+            "label": "Image",
+            "constraint": {
+              "width": 1000,
+              "height": 1000
+            },
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "top": {
+          "config": {
+            "label": "Use as hero (h1 title)",
+            "placeholder_false": "false",
+            "placeholder_true": "true",
+            "default_value": false
+          },
+          "type": "Boolean"
+        }
+      },
+      "items": {}
+    },
+    {
+      "id": "leftSecondary",
+      "name": "Left aligned / Secondary colors",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "ImageAndText",
+      "primary": {
+        "image": {
+          "config": {
+            "label": "Image",
+            "constraint": {
+              "width": 1000,
+              "height": 1000
+            },
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "video": {
+          "config": {
+            "label": "Video illustration",
+            "placeholder": "Replaces image field above",
+            "select": "media"
+          },
+          "type": "Link"
+        },
+        "tagline": {
+          "config": {
+            "label": "Tagline",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "This is where it all begins...",
+            "allowTargetBlank": false,
+            "single": "heading2"
+          }
+        },
+        "text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Text",
+            "placeholder": "",
+            "allowTargetBlank": false,
+            "single": "paragraph,em,hyperlink,strong"
+          }
+        },
+        "ctaLabel": {
+          "config": {
+            "label": "Call to action label",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "ctaLink": {
+          "config": {
+            "label": "Call to action link",
+            "placeholder": "",
+            "allowTargetBlank": false
+          },
+          "type": "Link"
+        },
+        "top": {
+          "config": {
+            "label": "Use as hero (h1 title)",
+            "placeholder_false": "false",
+            "placeholder_true": "true",
+            "default_value": false
+          },
+          "type": "Boolean"
+        }
+      },
+      "items": {}
+    },
+    {
+      "id": "rightSecondary",
+      "name": "Right aligned / Secondary colors",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "ImageAndText",
+      "primary": {
+        "tagline": {
+          "config": {
+            "label": "Tagline",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "This is where it all begins...",
+            "allowTargetBlank": false,
+            "single": "heading2"
+          }
+        },
+        "text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Text",
+            "placeholder": "",
+            "allowTargetBlank": false,
+            "single": "paragraph,em,hyperlink,strong"
+          }
+        },
+        "ctaLabel": {
+          "config": {
+            "label": "Call to action label",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "ctaLink": {
+          "config": {
+            "label": "Call to action link",
+            "placeholder": "",
+            "allowTargetBlank": false
+          },
+          "type": "Link"
+        },
+        "image": {
+          "config": {
+            "label": "Image",
+            "constraint": {
+              "width": 1000,
+              "height": 1000
+            },
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "video": {
+          "config": {
+            "label": "Video illustration",
+            "placeholder": "Replaces image field above",
+            "select": "media"
+          },
+          "type": "Link"
+        },
+        "top": {
+          "config": {
+            "label": "Use as hero (h1 title)",
+            "placeholder_false": "false",
+            "placeholder_true": "true",
+            "default_value": false
+          },
+          "type": "Boolean"
+        }
+      },
+      "items": {}
+    },
+    {
+      "id": "leftFullSecondary",
+      "name": "Left aligned / Full width / Secondary colors",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "ImageAndText",
+      "primary": {
+        "image": {
+          "config": {
+            "label": "Image",
+            "constraint": {
+              "width": 1000,
+              "height": 1000
+            },
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "tagline": {
+          "config": {
+            "label": "Tagline",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "This is where it all begins...",
+            "allowTargetBlank": false,
+            "single": "heading2"
+          }
+        },
+        "text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Text",
+            "placeholder": "",
+            "allowTargetBlank": false,
+            "single": "paragraph,em,hyperlink,strong"
+          }
+        },
+        "ctaLabel": {
+          "config": {
+            "label": "Call to action label",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "ctaLink": {
+          "config": {
+            "label": "Call to action link",
+            "placeholder": "",
+            "allowTargetBlank": false
+          },
+          "type": "Link"
+        },
+        "top": {
+          "config": {
+            "label": "Use as hero (h1 title)",
+            "placeholder_false": "false",
+            "placeholder_true": "true",
+            "default_value": false
+          },
+          "type": "Boolean"
+        }
+      },
+      "items": {}
+    },
+    {
+      "id": "rightFullSecondary",
+      "name": "Right aligned / Full width / Secondary colors",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "ImageAndText",
+      "primary": {
+        "tagline": {
+          "config": {
+            "label": "Tagline",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "This is where it all begins...",
+            "allowTargetBlank": false,
+            "single": "heading2"
+          }
+        },
+        "text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Text",
+            "placeholder": "",
+            "allowTargetBlank": false,
+            "single": "paragraph,em,hyperlink,strong"
+          }
+        },
+        "ctaLabel": {
+          "config": {
+            "label": "Call to action label",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "ctaLink": {
+          "config": {
+            "label": "Call to action link",
+            "placeholder": "",
+            "allowTargetBlank": false
+          },
+          "type": "Link"
+        },
+        "image": {
+          "config": {
+            "label": "Image",
+            "constraint": {
+              "width": 1000,
+              "height": 1000
+            },
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "top": {
+          "config": {
+            "label": "Use as hero (h1 title)",
+            "placeholder_false": "false",
+            "placeholder_true": "true",
+            "default_value": false
+          },
+          "type": "Boolean"
+        }
+      },
+      "items": {}
+    }
+  ]
+}

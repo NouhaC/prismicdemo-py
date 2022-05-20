@@ -1,0 +1,208 @@
+{
+  "id": "numbers",
+  "type": "SharedSlice",
+  "name": "Numbers",
+  "description": "Numbers",
+  "variations": [
+    {
+      "id": "side",
+      "name": "Side",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Numbers",
+      "primary": {
+        "tagline": {
+          "config": {
+            "label": "Tagline",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "This is where it all begins...",
+            "allowTargetBlank": false,
+            "single": "heading2"
+          }
+        },
+        "text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Text",
+            "placeholder": "A nice description of your product",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        }
+      },
+      "items": {
+        "number": {
+          "config": {
+            "label": "Number",
+            "placeholder": ""
+          },
+          "type": "Number"
+        },
+        "label": {
+          "config": {
+            "label": "Label",
+            "placeholder": ""
+          },
+          "type": "Text"
+        }
+      }
+    },
+    {
+      "id": "center",
+      "name": "Center",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Numbers",
+      "primary": {
+        "tagline": {
+          "config": {
+            "label": "Tagline",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "This is where it all begins...",
+            "allowTargetBlank": false,
+            "single": "heading2"
+          }
+        },
+        "text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Text",
+            "placeholder": "A nice description of your product",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        }
+      },
+      "items": {
+        "number": {
+          "config": {
+            "label": "Number",
+            "placeholder": ""
+          },
+          "type": "Number"
+        },
+        "label": {
+          "config": {
+            "label": "Label",
+            "placeholder": ""
+          },
+          "type": "Text"
+        }
+      }
+    },
+    {
+      "id": "sideSecondary",
+      "name": "Side / Secondary colors",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Numbers",
+      "primary": {
+        "tagline": {
+          "config": {
+            "label": "Tagline",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "This is where it all begins...",
+            "allowTargetBlank": false,
+            "single": "heading2"
+          }
+        },
+        "text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Text",
+            "placeholder": "A nice description of your product",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        }
+      },
+      "items": {
+        "number": {
+          "config": {
+            "label": "Number",
+            "placeholder": ""
+          },
+          "type": "Number"
+        },
+        "label": {
+          "config": {
+            "label": "Label",
+            "placeholder": ""
+          },
+          "type": "Text"
+        }
+      }
+    },
+    {
+      "id": "centerSecondary",
+      "name": "Center / Secondary colors",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Numbers",
+      "primary": {
+        "tagline": {
+          "config": {
+            "label": "Tagline",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "This is where it all begins...",
+            "allowTargetBlank": false,
+            "single": "heading2"
+          }
+        },
+        "text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Text",
+            "placeholder": "A nice description of your product",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        }
+      },
+      "items": {
+        "number": {
+          "config": {
+            "label": "Number",
+            "placeholder": ""
+          },
+          "type": "Number"
+        },
+        "label": {
+          "config": {
+            "label": "Label",
+            "placeholder": ""
+          },
+          "type": "Text"
+        }
+      }
+    }
+  ]
+}
